@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.app {
+  margin: 3rem;
+  border: 10px solid gray;
+  padding: 1rem;
+}
+
+.inputTodo{
+  width: 100%;
+  padding: .8rem .5rem;
+  border: 1px solid #ccc;
+}
