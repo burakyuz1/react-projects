@@ -1,0 +1,22 @@
+.KayitForm{
+   border: 1px solid gray;
+   border-radius: .7rem;
+   padding: 2rem 1rem;
+}
+
+.KayitForm > h2{
+   margin-top: 0;
+   
+ }
+
+.KayitForm > form > div{
+    margin-bottom: .5rem;
+}
+.KayitForm > form > div > label{
+    display: inline-block;
+    width: 50px;
+    font-weight: bold;
+}
+.KayitForm > form > div > input{
+  padding: .5rem .3rem;
+}
