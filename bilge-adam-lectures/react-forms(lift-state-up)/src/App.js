@@ -1,6 +1,7 @@
-import {useState} from 'react'
+import { useState } from 'react'
 import './App.css';
 import KayitFormu from './KayitFormu';
+import SayiliButtonlar from './SayiliButtonlar';
 
 function App() {
   const [sonUye, setSonUye] = useState("-");
@@ -9,9 +10,10 @@ function App() {
   }
   return (
     <div className="App">
+      <SayiliButtonlar />
       <h1>Formlarla calisma</h1>
       <p>Son üyemiz: {sonUye}</p>
-      <KayitFormu kaydedildiginde={kayitVar}/>
+      <KayitFormu kaydedildiginde={kayitVar} />
     </div>
   );
 }
